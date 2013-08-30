@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<provinces>
+	<province name="LiaoNing">
+		<city>ShenYang</city>
+		<city>DaLian</city>
+		<city>BenXi</city>
+		<city>FuShun</city>
+	</province>
+	<province name="TaiWan">
+		<city>TaiBei</city>
+		<city>TaiZhong</city>
+		<city>TaiNan</city>
+	</province>
+	<province name="XinJiang">
+		<city>WuLuMuQi</city>
+		<city>ShiHeZhi</city>
+	</province>
+</provinces>

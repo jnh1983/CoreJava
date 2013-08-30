@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<entries>
+<conceptGrp><concept>33</concept><transacGrp><transac type="modification">dellanyone</transac><date>2011-03-14T13:43:16</date></transacGrp>
+<languageGrp><language name="English" locale="en"/><termGrp><term>About Apple Policies</term></termGrp></languageGrp>
+<languageGrp><language name="French" locale="fr"/><termGrp><term>A propos de la politique d&apos;Apple</term></termGrp>
+												  <termGrp><term>A propos de la politique d&apos;Apple fr2</term></termGrp></languageGrp>
+<languageGrp><language name="German" locale="de"/><termGrp><term>A propos de la politique d&apos;Apple de</term></termGrp>
+												  <termGrp><term>A propos de la politique d&apos;Apple de2</term></termGrp>
+												  <termGrp><term>A propos de la politique d&apos;Apple de3</term></termGrp></languageGrp>
+<languageGrp><language name="Korean" locale="ko"/><termGrp><term>A propos de la politique d&apos;Apple de</term></termGrp>
+												  <termGrp><term>A propos de la politique d&apos;Apple 나엿 대해</term></termGrp>
+												  <termGrp><term>A propos de la politique d&apos;Apple 나엿 대해 2</term></termGrp></languageGrp>
+</conceptGrp>
+
+<conceptGrp><concept>34</concept><transacGrp><transac type="modification">dellanyone</transac><date>2011-03-14T13:43:16</date></transacGrp><languageGrp><language name="English" locale="en"/><termGrp><term>about me</term></termGrp></languageGrp><languageGrp><language name="French" locale="fr"/><termGrp><term>A propos de moi</term></termGrp></languageGrp></conceptGrp>
+<conceptGrp><concept>60</concept><transacGrp><transac type="origination">dellanyone</transac><date>2011-03-14T12:01:41</date></transacGrp><transacGrp><transac type="modification">dellanyone</transac><date>2011-03-14T13:43:16</date></transacGrp><languageGrp><language name="English" locale="en"/><termGrp><term>trados me</term></termGrp></languageGrp><languageGrp><language name="French" locale="fr"/><termGrp><term>trados me  Ö Ø Ù Ú Û Ü ß à á â ã ä å</term></termGrp><termGrp><term>trados me  Ö Ø Ù Ú Û Ü ß à á â ã ä å 2</term></termGrp></languageGrp><languageGrp><language name="Korean" locale="ko"/><termGrp><term>trados me  나엿 대해</term></termGrp><termGrp><term>trados me  나엿 대해해</term></termGrp></languageGrp></conceptGrp>
+<conceptGrp><concept>61</concept><transacGrp><transac type="origination">dellanyone</transac><date>2011-03-14T12:05:32</date></transacGrp><transacGrp><transac type="modification">dellanyone</transac><date>2011-03-14T13:43:16</date></transacGrp><languageGrp><language name="English" locale="en"/><termGrp><term>trados me</term></termGrp></languageGrp><languageGrp><language name="French" locale="fr"/><termGrp><term>trados me  Ö Ø Ù Ú Û Ü ß à á â ã ä å</term></termGrp><termGrp><term>trados me  fr2</term></termGrp></languageGrp><languageGrp><language name="Korean" locale="ko"/><termGrp><term>trados me  나엿 대해</term></termGrp></languageGrp></conceptGrp>
+
+<conceptGrp><descripGrp><descrip type="status">approved</descrip></descripGrp><concept>62</concept>
+<transacGrp><transac type="origination">dellanyone</transac><date>2011-03-14T13:58:53</date></transacGrp>
+<languageGrp><language name="English" locale="en"/><termGrp><term>apple</term></termGrp></languageGrp>
+<languageGrp><language name="Chinese" locale="zh"/><termGrp><term>苹果的苹果</term></termGrp></languageGrp>
+<languageGrp><language name="Korean" locale="ko"/><termGrp><term>사과의 사과 사과의 사과</term></termGrp></languageGrp>
+<languageGrp><language name="Japanese" locale="ja"/><termGrp><term>リンゴの　リンゴ</term></termGrp></languageGrp>
+</conceptGrp>
+
+<conceptGrp><descripGrp><descrip type="status">approved</descrip></descripGrp><concept></concept>
+<transacGrp><transac type="origination">dellanyone</transac><date>2011-03-14T13:58:53</date></transacGrp>
+<languageGrp><language name="English" locale="en"/><termGrp><term>apple1</term></termGrp></languageGrp>
+<languageGrp><language name="Chinese" locale="zh"/><termGrp><term>苹果的苹果 苹果的 苹果</term></termGrp></languageGrp>
+<languageGrp><language name="Korean" locale="ko"/><termGrp><term>사과의 사과 사과배 사과</term></termGrp></languageGrp>
+<languageGrp><language name="Japanese" locale="ja"/><termGrp><term>リンゴの　リンゴ ひりかな　知事亜　</term></termGrp></languageGrp>
+</conceptGrp>
+
+</entries>

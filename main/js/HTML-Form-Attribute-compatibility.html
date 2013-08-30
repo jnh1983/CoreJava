@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function fnPrintIE(){
+	var file = document.getElementById("formId").file[1];
+	alert(file);
+}
+</script>
+</head>
+<body>
+<FORM id="formId" ACTION="" METHOD="POST">
+
+<INPUT TYPE=CHECKBOX NAME=file VALUE="cs_CZ\tr_090422.Czech.xml" src='true'>
+<INPUT TYPE=CHECKBOX NAME=file VALUE="cs_CZ\tr_090422.Czech.xml" trg='true'>
+
+<input type="button" value="printAttributeOnIE" onclick="fnPrintIE()" />
+
+</FORM>
+</body>
+</html>

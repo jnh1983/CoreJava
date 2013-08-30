@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<FORM NAME="availableFilesForm" id="availableFilesFormId" 
+		ACTION="/globalsight/ControlServlet?linkName=self&pageName=ALC2" METHOD="POST">
+    <INPUT TYPE="HIDDEN" NAME="gapaction"
+     VALUE="selectfiles">
+
+    <!-- This is the action (Add/Remove) being performed on the file list. -->
+    <INPUT TYPE="HIDDEN" NAME="fileAction" VALUE="add">
+    <!-- This is the selected file pair. -->
+    <INPUT TYPE="HIDDEN" NAME="filePair" VALUE="">
+
+<!-- Available Source Files -->
+<DIV STYLE="POSITION: ABSOLUTE; Z-INDEX: 8; TOP: 80px; LEFT: 0px;">
+<SPAN CLASS="standardTextBold">Source File</SPAN>
+</DIV>
+
+<DIV CLASS="importListSmall"
+ STYLE="POSITION: ABSOLUTE; Z-INDEX: 8; TOP: 100px; LEFT: 0px; overflow-y: scroll;">
+<TABLE CELLSPACING="0" CELLPADDING="0" BORDER="0" CLASS="standardText"
+  STYLE="table-layout: fixed;" WIDTH=320>
+
+  <TBODY>
+    <COL WIDTH=21>   <!-- Checkbox -->
+    <COL WIDTH=22>   <!-- Folder/File icon -->
+    <COL WIDTH=259>  <!-- File -->
+    <COL WIDTH=18>   <!-- Up Folder (for header) -->
+    <TR CLASS="tableHeadingBasic" VALIGN="TOP">
+      <TD>&nbsp;</TD>
+
+      <TD><IMG SRC="/globalsight/images/folderopen.gif" HEIGHT=13 WIDTH=16 VSPACE=3></TD>
+      <TD STYLE="word-wrap: break-word; padding-top: 2px">
+        C:\Program\GlogalSight\File\Document\kk\cs_CZ\20091209-1725_1209-GBS526-server\private\Task\GBS-526
+      </TD>
+      <TD ALIGN="RIGHT"><A HREF="javascript:navigateDirectoriesSrc('cs_CZ\\20091209-1725_1209-GBS526-server\\private\\Task')"><IMG SRC="/globalsight/images/folderback.gif" BORDER=0 HEIGHT=13 WIDTH=15 VSPACE=3 HSPACE=1></A>
+      </TD>
+    </TR>
+    <TR VALIGN=TOP>
+
+<TD><INPUT TYPE=CHECKBOX NAME=file VALUE="cs_CZ\20091209-1725_1209-GBS526-server\private\Task\GBS-526\tr_090422.Czech.xml" src='true'></TD><TD STYLE='padding-top: 2px'><IMG SRC='/globalsight/images/file.gif' HEIGHT=15 WIDTH=13></TD>
+
+<TD COLSPAN=2 STYLE='word-wrap: break-word;'>tr_090422.Czech.xml</TD>
+</TR>
+
+  </TABLE>
+</DIV>
+<!-- End Available Source Files -->
+
+<!-- Available Target Files -->
+<DIV STYLE="POSITION: ABSOLUTE; Z-INDEX: 8; TOP: 245px; LEFT: 0px;">
+<SPAN CLASS="standardTextBold">Target File</SPAN>
+</DIV>
+
+<DIV CLASS="importListSmall"
+ STYLE="POSITION: ABSOLUTE; Z-INDEX: 8; TOP: 265px; LEFT: 0px; overflow-y: scroll;">
+<TABLE CELLSPACING="0" CELLPADDING="0" BORDER="0" CLASS="standardText"
+  STYLE="table-layout: fixed;" WIDTH=320>
+
+  <TBODY>
+    <COL WIDTH=21>   <!-- Checkbox -->
+    <COL WIDTH=22>   <!-- Folder/File icon -->
+    <COL WIDTH=259>  <!-- File -->
+    <COL WIDTH=18>   <!-- Up Folder (for header) -->
+    <TR CLASS="tableHeadingBasic" VALIGN="TOP">
+      <TD>&nbsp;</TD>
+
+      <TD><IMG SRC="/globalsight/images/folderopen.gif" HEIGHT=13 WIDTH=16 VSPACE=3></TD>
+      <TD STYLE="word-wrap: break-word; padding-top: 2px">
+        C:\Program\GlogalSight\File\Document\kk\cs_CZ\20091209-1725_1209-GBS526-server\private\Task\GBS-526
+      </TD>
+      <TD ALIGN="RIGHT"><A HREF="javascript:navigateDirectoriesTrg('cs_CZ\\20091209-1725_1209-GBS526-server\\private\\Task')"><IMG SRC="/globalsight/images/folderback.gif" BORDER=0 HEIGHT=13 WIDTH=15 VSPACE=3 HSPACE=1></A>
+      </TD>
+    </TR>
+    <TR VALIGN=TOP>
+
+<TD><INPUT TYPE=CHECKBOX NAME=file VALUE="cs_CZ\20091209-1725_1209-GBS526-server\private\Task\GBS-526\tr_090422.Czech.xml" trg='true'></TD><TD STYLE='padding-top: 2px'><IMG SRC='/globalsight/images/file.gif' HEIGHT=15 WIDTH=13></TD>
+
+<TD COLSPAN=2 STYLE='word-wrap: break-word;'>tr_090422.Czech.xml</TD>
+</TR>
+
+  </TABLE>
+</DIV>
+<!-- End Available Target Files -->
+</FORM>
+
+</body>
+</html>

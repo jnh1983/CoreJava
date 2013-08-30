@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>  
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>jQuery xml Test</title>
+<script type="text/javascript" src="jquery-latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$.ajax({
+		url: "City.xml",
+		type: "GET",
+	    dataType: "xml",
+	    timeout: 1000,
+	    error: function(){
+	        alert('Error loading XML document');
+	    },
+		success:function(xml){
+			$(xml).find("province").each(function(){
+				var t = $(this).attr("name");//this->
+				$("#idProvince").append("<option>"+t+"</option>");
+			});
+		}
+	});
+	$("#idProvince").change(function(){
+		$("#idCity>option").remove();
+		var pname = $("#idProvince").val();
+		$.ajax({
+			url: "City.xml",
+			type: "GET",
+		    dataType: "xml",
+		    timeout: 1000,
+		    error: function(){
+		        alert('Error loading XML document');
+		    },
+			success:function(xml){
+				$(xml).find("province[name='"+pname+"']>city").each(function(){
+					$("#idCity").append("<option>"+$(this).text()+"</option>");
+				});
+			}
+		});
+	});
+});
+</script>
+</head>
+<body>
+<form id="form1">
+	<div>
+		<select id="idProvince" style="width:200px;">
+		  	<option>Please select a Province</option>
+		</select>
+
+		<select id="idCity" style="width:200px;">
+		</select>
+	</div>
+	
+	<xml id="xmlID"></xml>
+</form>
+</body>
+</html> 
