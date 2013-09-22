@@ -47,8 +47,14 @@ public class HelloWorld {
 		System.out.println(str + " [" + sub + "] " + str.indexOf(sub) + "\t"
 				+ str.substring(str.indexOf(sub) + sub.length()));
 
-		testLowercase();
+//		testLowercase();
 //		testIndexOf();
+		
+		System.out.println("startsWith(H):\t" + str.startsWith("H"));
+//		System.out.println("startsWith(NULL):\t" + str.startsWith(null));
+		
+		String path = "D:/GlobalSight/GlobalSight/jboss\\server\\standalone\\deployments\\";
+		System.out.println(path.replace("\\", "$"));
 	}
 
 	public static void testIndexOf(){
