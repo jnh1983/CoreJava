@@ -1,11 +1,14 @@
-package com.test;
+package com.test.syntax;
 
-public class Test {
+import com.test.vo.Student;
+
+public class TestReturn {
 
 	public static void main(String[] args) {
 
-		System.out.println("test1():\t" + new Test().test1());
-		System.out.println("test2():\t" + new Test().test2());
+		System.out.println("test1():\t" + new TestReturn().test1());
+		System.out.println("test2():\t" + new TestReturn().test2());
+		System.out.println("test3():\t" + new TestReturn().test3());
 	}
 
 	String test1() {
@@ -38,4 +41,16 @@ public class Test {
 
 		return mess;
 	}
+	
+	Student test3() {
+		System.out.println("------------Start test3()-----------------------");
+		Student stu = new Student(1, "Li4", 31);
+		try {
+			stu.setName("TryName");
+			return stu;
+		} finally {
+			stu.setName("FinallyName");
+		}
+	}
+	
 }
