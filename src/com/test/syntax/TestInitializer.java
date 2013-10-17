@@ -6,7 +6,7 @@ package com.test.syntax;
  * @author Joey
  *
  */
-public class TestFinal {
+public class TestInitializer {
 
 	static int sNumber;
 	int number;
@@ -22,7 +22,7 @@ public class TestFinal {
 		number = 21;
 	}
 	
-	TestFinal(){
+	TestInitializer(){
 		System.out.println("MyTest:\t Constructor");
 		sNumber = 12;
 		number = 22;
@@ -31,12 +31,17 @@ public class TestFinal {
 	public static void main(String[] args) {		
 		System.out.println("MyTest:\t Main");
 		System.out.println("\t sNumber = " + sNumber);
-		TestFinal test = new TestFinal();
+		TestInitializer test = new TestInitializer();
 		System.out.println("\t number = " + test.getNumber());
+//		test();
 	}
 	
 	public int getNumber(){
 		return number;
+	}
+	
+	public static void test(){
+		System.out.println("MyTest:\t Static Method.");
 	}
 }
 
