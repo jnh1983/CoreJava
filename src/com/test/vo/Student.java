@@ -6,6 +6,11 @@ public class Student {
 	String name;
 	int classId;
 	
+	public Student(){}
+	
+	public Student(int id){
+		this(id, "name" + id, -1);
+	}
 	public Student(int id, String name) {
 		this(id, name, -1);
 	}
@@ -43,5 +48,9 @@ public class Student {
 	@Override
 	public String toString() {
 		return "Student [id=" + id + ", name=" + name + ", classId=" + classId + "]";
+	}
+	
+	public Student clone() {
+		return new Student(0, "Clone-" + this.name, this.classId);
 	}
 }
