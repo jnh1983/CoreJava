@@ -8,7 +8,7 @@ import java.util.List;
 
 public class CalendarTest {
 
-	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss SSS");
 
 	public static void main(String[] args) {
 		CalendarTest test = new CalendarTest();
