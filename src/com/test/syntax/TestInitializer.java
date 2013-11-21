@@ -5,6 +5,7 @@ package com.test.syntax;
  * 
  * @author Joey
  *
+ * @see http://docs.oracle.com/javase/specs/jls/se7/html/jls-8.html#jls-8.6
  */
 public class TestInitializer {
 
@@ -16,16 +17,16 @@ public class TestInitializer {
 		sNumber = 10;
 	}
 	
+	TestInitializer() {
+		System.out.println("MyTest:\t Constructor");
+		sNumber = 12;
+		number = 22;
+	}
+	
 	{
 		System.out.println("MyTest:\t Instance Initializer");
 		sNumber = 11;
 		number = 21;
-	}
-	
-	TestInitializer(){
-		System.out.println("MyTest:\t Constructor");
-		sNumber = 12;
-		number = 22;
 	}
 	
 	public static void main(String[] args) {		
@@ -33,15 +34,10 @@ public class TestInitializer {
 		System.out.println("\t sNumber = " + sNumber);
 		TestInitializer test = new TestInitializer();
 		System.out.println("\t number = " + test.getNumber());
-//		test();
 	}
 	
 	public int getNumber(){
 		return number;
-	}
-	
-	public static void test(){
-		System.out.println("MyTest:\t Static Method.");
 	}
 }
 
